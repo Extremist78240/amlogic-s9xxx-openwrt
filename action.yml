@@ -28,7 +28,8 @@ inputs:
     default: 'openwrt/bin/targets/*/*/*.tar.gz'
 
 runs:
-  using: "composite"
+  using: 'node20'
+  main: 'main.js'
   steps:
     - shell: bash
       run: |
