@@ -3665,7 +3665,7 @@ CONFIG_PACKAGE_libxtables=y
 # CONFIG_PACKAGE_libupm-apa102-python3 is not set
 # CONFIG_PACKAGE_libupm-apds9002 is not set
 # CONFIG_PACKAGE_libupm-apds9002-python3 is not set
-# CONFIG_PACKAGE_libupm-apds9930 is not set
+# 9 is not set
 # CONFIG_PACKAGE_libupm-apds9930-python3 is not set
 # CONFIG_PACKAGE_libupm-at42qt1070 is not set
 # CONFIG_PACKAGE_libupm-at42qt1070-python3 is not set
@@ -4982,8 +4982,8 @@ CONFIG_PACKAGE_luci-app-wol=y
 # CONFIG_PACKAGE_luci-app-wrtbwmon is not set
 # CONFIG_PACKAGE_luci-app-xlnetacc is not set
 CONFIG_PACKAGE_luci-app-zerotier=y
-# CONFIG_PACKAGE_luci-app-openclash is not set
-# CONFIG_PACKAGE_luci-app-passwall is not set
+CONFIG_PACKAGE_luci-app-openclash=y
+CONFIG_PACKAGE_luci-app-passwall=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ChinaDNS_NG=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Dns2socks=y
